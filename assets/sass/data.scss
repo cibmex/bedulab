@@ -1,0 +1,35 @@
+.nav-item {
+    color: white;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.informacion-personal {
+    position: relative;
+}
+
+.titulo1 {
+    display: flex;
+    justify-content: center;
+}
+
+.genero {
+    font-size: 16px;
+}
+
+#datos-clinicos {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+    height: 100px;
+    align-items: center;
+}

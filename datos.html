@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href ="assets/css/data.css">
+
+    <title>Laboratorios</title>
+  </head>
+  <body>
+    <header id=header>
+        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="#" style="font-weight: bold">
+                    <img src= "assets/image/beaker.png" width= 30px alt="logo de Laboratorios">
+                    Laboratorios Patito
+                </a>
+            <div id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#">Menu principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Regresar</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>  
+    </header>     
+    <h1 class="titulo1 mt-2">Nuevo Usuario</h1>
+    <main id="informacion-personal">
+            <form>
+                <div class="container">
+                    <h2>Información personal</h2>
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault01">Nombre</label>
+                            <input type="text" class="form-control" id="validationDefault01" placeholder="Nombre" required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault02">Apellido</label>
+                            <input type="text" class="form-control" id="validationDefault02" placeholder="Apellido" required>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefault02">Edad</label>
+                            <input type="text" class="form-control" id="validationDefault02" placeholder="Edad" required>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefault02">Tipo</label>
+                            <select class="custom-select">
+                                <option selected>Selecciona...</option>
+                                <option value="1">Años</option>
+                                <option value="2">Meses</option>
+                                <option value="2">Días</option>
+                            </select>    
+                        </div>    
+                    </div>
+                </div>
+                <div class="container mb-3">
+                    <div class="form-row"> 
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefault02">Género</label>
+                            <select class="custom-select">
+                                <option selected>Selecciona...</option>
+                                <option value="1">Masculino</option>
+                                <option value="2">Femenino</option>
+                                </select>    
+                        </div>   
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefault02">Tipo sanguineo</label>
+                            <input type="text" class="form-control" id="validationDefault02" placeholder="Tipo sanguineo" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-8">
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault03">Ciudad</label>
+                            <input type="text" class="form-control" id="validationDefault03" placeholder="Ciudad de México" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault04">Delegación</label>
+                            <input type="text" class="form-control" id="validationDefault04" placeholder="Delegación" required>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <label for="validationDefault05">Dirección</label>
+                            <input type="text" class="form-control" id="validationDefault05" placeholder="Dirección completa" required>
+                        </div> 
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault05">Código postal</label>
+                            <input type="text" class="form-control" id="validationDefault05" placeholder="Código postal" required>
+                        </div>                                          
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                            <label class="form-check-label" for="invalidCheck2">
+                                Acepto los términos y condiciones
+                            </label>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Guardar</button>
+                    <button class="btn btn-secondary" type="submit">Cancelar</button>
+                </div>
+            </form>
+    </main>
+    <section id="datos-clinicos">
+            <form>
+                <div class="container mt-6">
+                    <h2>Datos clínicos</h2>
+                    <div class="form-row">
+                        <div class="col-md-3 mb-3">
+                            <label for="validationDefault01">Clave del paciente</label>
+                            <input type="text" class="form-control" id="validationDefault01" disabled>
+                        </div>
+                        <div class="col-md-9 mb-3">
+                            <label for="validationDefault02">Doctor que solicita los estudios</label>
+                            <input type="text" class="form-control" id="validationDefault02" placeholder="Dr./Dra.">
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefault02">Hr. T.M.</label>
+                            <input type="text" class="form-control" id="validationDefault02" placeholder="Hora T.M." required>
+                        </div>
+                        <div class="col-md-5 mb-3">
+                            <label for="validationDefault02">Estudios solicitados</label>
+                                <select class="custom-select">
+                                    <option selected>Selecciona...</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="2">3</option>
+                                    <option value="2">4</option>
+                                    <option value="2">5</option>
+                                    <option value="2">6</option>
+                                    <option value="2">7</option>
+                                    <option value="2">8</option>
+                                    <option value="2">9</option>
+                                    <option value="2">10</option>
+                                </select>    
+                        </div>
+                        <div class="col-md-5 mb-3">
+                            <label for="validationDefault02">Análisis</label>
+                                <select class="custom-select">
+                                    <option selected>Selecciona...</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="2">3</option>
+                                    <option value="2">4</option>
+                                    <option value="2">5</option>
+                                    <option value="2">6</option>
+                                    <option value="2">7</option>
+                                    <option value="2">8</option>
+                                    <option value="2">9</option>
+                                    <option value="2">10</option>
+                                </select>    
+                        </div>                  
+                    </div>
+                    <button class="btn btn-primary" type="submit">Aceptar</button>
+                    <button class="btn btn-secondary" type="submit">Cancelar</button>
+                </div>
+            </form>
+    </section>
+    <footer id=footer>
+        <div> 
+                <div>&copy; 2019 laboratoriospatito.com</div>
+                <div>All rights reserver, powered by <strong>flexbox</strong></div>
+        </div>
+    </footer>   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

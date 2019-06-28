@@ -1,0 +1,14 @@
+nav img{
+    height: 50px;    
+}
+
+#results{
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card{
+    width: 80vw; 
+    margin: 10px auto;
+}

@@ -1,2 +1,2 @@
-# bedulab
-Proyecto de Laboratorio
+# laboratorio
+Proyecto de laboratorios patito

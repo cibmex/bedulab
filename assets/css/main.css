@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Open Sans', serif;
+}
+
+.login_wrapper {
+    height: 80vh;
+}
+
+.login {
+    min-width: 30vw;
+    width: 30vw;
+}
+
+.fieldset_container {
+    min-height: 20vh;
+    min-width: 30vw;
+    width: 30vw;
+}
+
+.fieldset_element {
+    padding-bottom: 1rem;
+}
+
+.fieldset_element>label {
+    display: block;
+    width: 8vw;
+    text-align: right;
+    padding-right: .5rem;
+}
+
+.fieldset_element>input {
+    width: 20vw;
+}
+
+.footer {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.footer>div {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
